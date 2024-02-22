@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Мета-теги и стили игрового экрана -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра</title>
+    <link rel="stylesheet" href="style.css">
+           
+</head>
+
+
+<body>
+    
+
+    <div id="gameScreen">
+        <!-- Содержимое игрового экрана -->
+        <div>Имя: <span id="playerNameDisplay"></span></div>
+        <div>Текущее время: <span id="currentTime"></span></div>
+        <div>Время игры: <span id="gameTime"></span></div>
+        <div>Жизни: <span id="lifeCount">5</span></div>
+        <div id="gameBoard">
+            <!-- Игровое поле -->
+            <div class="player" id="player"></div>
+            <!-- Добавляем монстров -->
+            <div class="monster" id="monster1"></div>
+            <div class="monster" id="monster2"></div>
+            <div id="finishLine"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
